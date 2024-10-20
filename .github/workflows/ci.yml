@@ -14,4 +14,4 @@ jobs:
       USERNAME: ${{secrets.USERNAME}}
     steps:
       - run: |
-          echo hostname
+          hostname
